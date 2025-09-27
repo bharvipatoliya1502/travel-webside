@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RV Travels — Contact</title>
+  <meta name="description" content="Contact RV Travels — enquiry form and contact details" />
+  <link rel="icon" href="images/rvtravels.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="navbar" role="banner">
+    <div class="container row">
+      <div class="brand" onclick="location.href='index.html'">
+        <img src="images/rvtravels.jpg" alt="RV Travels logo">
+        <div>
+          <div class="title">RV Travels</div>
+          <div class="tag">Curated journeys · Luxury & Authentic</div>
+        </div>
+      </div>
+
+      <nav class="nav-links" role="navigation" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html" class="cta-small" style="margin-left:10px">Plan Trip</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" style="background-image:url('images/travel-bg.jpg')">
+    <div class="hero-inner container">
+      <div class="text">
+        <div class="kicker">Get in touch</div>
+        <h1>Contact RV Travels</h1>
+        <p class="lead">Fill the form and our travel advisor will reach out to tailor your trip.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM & DETAILS -->
+  <main class="section">
+    <div class="container contact-grid">
+      <form class="form-card" action="#" method="POST" novalidate>
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" placeholder="Your full name" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+        <label>Gender</label>
+        <select name="gender" required>
+          <option value="">Select gender</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+
+        <label>Country</label>
+        <select name="country" required>
+          <option value="">Select country</option>
+          <option>India</option>
+          <option>United States</option>
+          <option>United Kingdom</option>
+          <option>Australia</option>
+          <option>France</option>
+          <option>Other</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Tell us about your travel plans" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <aside>
+        <div class="contact-info" style="margin-bottom:14px">
+          <h3>Contact Details</h3>
+          <p><strong>Email:</strong> <a href="mailto:info@rvtravels.com">info@rvtravels.com</a></p>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+
+<div class="social-icons">
+  <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+  <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+</div>
+</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <div class="map">
+          <!-- Working embed (Ahmedabad example) -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.902398336267!2d72.60322791536387!3d23.02250598492506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84c0b5a8f1b9%3A0x8a14e9d3a2b7e9d1!2sAhmedabad!5e0!3m2!1sen!2sin!4v1690000000000"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 RV Travels. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
